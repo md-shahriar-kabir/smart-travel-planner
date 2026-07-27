@@ -1,0 +1,82 @@
+const MOCK_AGENTS: AgentItem[] = [
+  {
+    id: '1',
+    title: 'DocuMind AI Summarizer',
+    description: 'Autonomous document parsing agent that extracts key points, summaries, and action items from PDFs.',
+    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600',
+    category: 'Document Intelligence',
+    price: 29,
+    rating: 4.9,
+    createdAt: '2026-02-10'
+  },
+  {
+    id: '2',
+    title: 'SmartRec Product Matcher',
+    description: 'Context-aware recommendation engine tailored to user behavior and real-time interaction data.',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600',
+    category: 'Recommendation',
+    price: 49,
+    rating: 4.7,
+    createdAt: '2026-02-15'
+  },
+  {
+    id: '3',
+    title: 'OmniChat Reasoning Bot',
+    description: 'Multi-turn conversational assistant with persistent memory and tool execution capabilities.',
+    image: 'https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600',
+    category: 'Chat Assistant',
+    price: 19,
+    rating: 4.8,
+    createdAt: '2026-01-20'
+  },
+  {
+    id: '4',
+    title: 'AutoClassify Metadata Tag',
+    description: 'Automatically categorizes content, tags keywords, and extracts metadata from raw text inputs.',
+    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600',
+    category: 'Auto Classification',
+    price: 35,
+    rating: 4.6,
+    createdAt: '2026-02-01'
+  },
+  {
+    id: '5',
+    title: 'DataInsight Analyzer',
+    description: 'Processes structured CSV and JSON files to generate actionable insights and downloadable reports.',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600',
+    category: 'Data Analytics',
+    price: 59,
+    rating: 4.9,
+    createdAt: '2026-02-22'
+  },
+  {
+    id: '6',
+    title: 'VisionOCR Image Processor',
+    description: 'Multimodal AI vision agent that interprets charts, receipts, and UI screenshots.',
+    image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600',
+    category: 'Document Intelligence',
+    price: 39,
+    rating: 4.5,
+    createdAt: '2026-02-18'
+  },
+  {
+    id: '7',
+    title: 'ContentGen Copywriter',
+    description: 'Generates SEO-optimized blogs, marketing copies, and social posts with custom prompt controls.',
+    image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600',
+    category: 'Chat Assistant',
+    price: 25,
+    rating: 4.4,
+    createdAt: '2026-02-05'
+  },
+  {
+    id: '8',
+    title: 'Workflow Orchestrator',
+    description: 'Connects multiple agentic tools to execute end-to-end complex business tasks autonomously.',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600',
+    category: 'Auto Classification',
+    price: 79,
+    rating: 5.0,
+    createdAt: '2026-02-25'
+  },
+];
