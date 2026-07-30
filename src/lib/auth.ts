@@ -3,6 +3,10 @@ import { MongoClient } from "mongodb";
 import { mongodbAdapter } from "better-auth/adapters/mongodb";
 import { createAuthClient } from "better-auth/react";
 
+if (!process.env.MONGODB_URI) {
+  throw new Error("Please add your MONGODB_URI to .env file");
+}
+
 const client = new MongoClient(process.env.MONGODB_URI);
 const db = client.db("smart-travel-planner");
 
